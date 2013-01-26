@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <title>Pictures</title>
+        <meta name="author" content="Vy Thuy Nguyen" />
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <link rel="SHORTCUT ICON" href="icon.png"/>
+
+        <style type="text/css">
+        #PhotoGallery1
+        {
+           border-spacing: 3px;
+           width: 100%;
+        }
+        #PhotoGallery1 .figure
+        {
+           padding: 0px 0px 0px 0px;
+           text-align: center;
+           vertical-align: top;
+        }
+        #PhotoGallery1 .figure img
+        {
+           border: 0px #000000 solid;
+        }
+        </style>
+        <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+        <link rel="stylesheet" href="prettyPhoto/css/prettyPhoto.css" type="text/css">
+        <script type="text/javascript" src="prettyPhoto/js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function()
+        {
+        $("a[rel^='prettyPhoto_PhotoGallery1']").prettyPhoto({theme:'facebook'});
+        });
+        </script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-20295536-2']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+            function showPost(post) {
+                if ($("div#post" + post).is(":visible"))
+                    $("div#post" + post).hide("fast");
+                else
+                    $("div#post" + post).show("fast");
+            }
+
+            $(document).ready(function () {
+                $("div.hidden").hide("fast");
+            });
+
+            $(function () {
+
+                var $sidebar = $("#sidebar"),
+                $window = $(window),
+                offset = $sidebar.offset(),
+                topPadding = 15;
+
+                $window.scroll(function () {
+                    if ($window.scrollTop() > offset.top) {
+                        $sidebar.stop().animate({
+                            marginTop: $window.scrollTop() - offset.top + topPadding
+                        });
+                    } else {
+                        $sidebar.stop().animate({
+                            marginTop: 0
+                        });
+                    }
+                });
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="allcontent">
+                    <div id="header">
+            <h1>System.out.println("Snapshots of My Life!")</h1>
+        </div>
+
+                                                                                                                                                            <div id="sidebar">
+            <div id="navigate">
+                <br />
+                <h2>Navigate</h2>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="http://www.cs.umb.edu/~vytng91" title="Home">Home</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="#" title="Check out my photos">Album</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="" title="My R&eacute;sum&eacute;">R&eacute;sum&eacute;</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="http://www.cs.umb.edu/~vytng91/Java/" title="My Java Projects/Programs">Java</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="http://www.cs.umb.edu/~vytng91/C++/" title="My C++ Projects/Programs">C++</a></p>
+                <hr />
+                
+            </div>
+            <div id="refLink">
+                <h2>
+                    Reference</h2>
+                <hr />
+                <p class="menu">
+                    <a href="http://www.colorschemer.com/online.html" title="ColorScheme">Color Scheme</a></p>
+                <hr />
+                <p class="menu">
+                    <a href="http://www.w3schools.com/html" title="W3School">W3School</a></p>
+                <hr />
+                <p class="menu">
+                    <a href="http://www.degraeve.com/reference/specialcharacters.php" title="Special Characters in HTML">
+                        Special Characters</a></p>
+            </div>
+        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div id="main">
+            <div class="post">
+                <div class="postHeader">
+                Vy Thuy Nguyen
+                </div>
+                <div class="postMain">
+                      <div id="wb_PhotoGallery1" style="width:355px;height:461px;z-index:1;padding:0; margin: 10px auto">
+                        <table id="PhotoGallery1">
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/DSC00984.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="DSC00984"><img alt="DSC00984" title="DSC00984" src="images/DSC00984.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_0143.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_0143"><img alt="IMG_0143" title="IMG_0143" src="images/IMG_0143.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_0272.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_0272"><img alt="IMG_0272" title="IMG_0272" src="images/IMG_0272.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_0340.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_0340"><img alt="IMG_0340" title="IMG_0340" src="images/IMG_0340.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_0366.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_0366"><img alt="IMG_0366" title="IMG_0366" src="images/IMG_0366.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_0580.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_0580"><img alt="IMG_0580" title="IMG_0580" src="images/IMG_0580.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_1808.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_1808"><img alt="IMG_1808" title="IMG_1808" src="images/IMG_1808.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_2817.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_2817"><img alt="IMG_2817" title="IMG_2817" src="images/IMG_2817.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_2818.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_2818"><img alt="IMG_2818" title="IMG_2818" src="images/IMG_2818.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_2836.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_2836"><img alt="IMG_2836" title="IMG_2836" src="images/IMG_2836.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_2837.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_2837"><img alt="IMG_2837" title="IMG_2837" src="images/IMG_2837.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_2859.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_2859"><img alt="IMG_2859" title="IMG_2859" src="images/IMG_2859.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3021.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3021"><img alt="IMG_3021" title="IMG_3021" src="images/IMG_3021.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3363.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3363"><img alt="IMG_3363" title="IMG_3363" src="images/IMG_3363.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3412.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3412"><img alt="IMG_3412" title="IMG_3412" src="images/IMG_3412.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3426.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3426"><img alt="IMG_3426" title="IMG_3426" src="images/IMG_3426.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3605.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3605"><img alt="IMG_3605" title="IMG_3605" src="images/IMG_3605.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3606.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3606"><img alt="IMG_3606" title="IMG_3606" src="images/IMG_3606.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3989.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3989"><img alt="IMG_3989" title="IMG_3989" src="images/IMG_3989.JPG" style="width:20px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_3990.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_3990"><img alt="IMG_3990" title="IMG_3990" src="images/IMG_3990.JPG" style="width:20px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4011.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4011"><img alt="IMG_4011" title="IMG_4011" src="images/IMG_4011.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4013.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4013"><img alt="IMG_4013" title="IMG_4013" src="images/IMG_4013.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4045.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4045"><img alt="IMG_4045" title="IMG_4045" src="images/IMG_4045.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4046.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4046"><img alt="IMG_4046" title="IMG_4046" src="images/IMG_4046.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4078.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4078"><img alt="IMG_4078" title="IMG_4078" src="images/IMG_4078.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4218.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4218"><img alt="IMG_4218" title="IMG_4218" src="images/IMG_4218.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4282.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4282"><img alt="IMG_4282" title="IMG_4282" src="images/IMG_4282.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4288.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4288"><img alt="IMG_4288" title="IMG_4288" src="images/IMG_4288.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4462.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4462"><img alt="IMG_4462" title="IMG_4462" src="images/IMG_4462.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4629.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4629"><img alt="IMG_4629" title="IMG_4629" src="images/IMG_4629.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4674.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4674"><img alt="IMG_4674" title="IMG_4674" src="images/IMG_4674.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4679.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4679"><img alt="IMG_4679" title="IMG_4679" src="images/IMG_4679.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4702.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4702"><img alt="IMG_4702" title="IMG_4702" src="images/IMG_4702.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4714.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4714"><img alt="IMG_4714" title="IMG_4714" src="images/IMG_4714.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_4740.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_4740"><img alt="IMG_4740" title="IMG_4740" src="images/IMG_4740.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_5638.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_5638"><img alt="IMG_5638" title="IMG_5638" src="images/IMG_5638.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_5796.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_5796"><img alt="IMG_5796" title="IMG_5796" src="images/IMG_5796.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_6136.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_6136"><img alt="IMG_6136" title="IMG_6136" src="images/IMG_6136.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_6154.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_6154"><img alt="IMG_6154" title="IMG_6154" src="images/IMG_6154.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_6160.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_6160"><img alt="IMG_6160" title="IMG_6160" src="images/IMG_6160.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_6428.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_6428"><img alt="IMG_6428" title="IMG_6428" src="images/IMG_6428.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_7283.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_7283"><img alt="IMG_7283" title="IMG_7283" src="images/IMG_7283.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/IMG_7476.JPG" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="IMG_7476"><img alt="IMG_7476" title="IMG_7476" src="images/IMG_7476.JPG" style="width:36px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/Picture%20123.jpg" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="Picture 123"><img alt="Picture 123" title="Picture 123" src="images/Picture%20123.jpg" style="width:20px;height:27px;"></a>
+                              </td>
+                              <td class="figure" style="width:114px;height:27px">
+                              <a href="images/ThreeSeasons.png" rel="prettyPhoto_PhotoGallery1[PhotoGallery1]" title="ThreeSeasons"><img alt="ThreeSeasons" title="ThreeSeasons" src="images/ThreeSeasons.png" style="width:107px;height:27px;"></a>
+                              </td>
+                           </tr>
+                        </table>
+                        </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <hr />
+                <q>If you can't find a way, make a way</q> -- Daniella Kessler
+                <p>
+                    &copy; 2011 V. T. Nguyen. All rights reserved</p>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

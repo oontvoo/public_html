@@ -1,0 +1,94 @@
+body
+{
+    background-color: #000;
+    background-image: url(../images/purplemoon.jpg);
+    background-position: center;
+    background-position: 50% 80%;
+    background-attachment: fixed;
+    font-family: fantasy;
+    font-size: 18px;
+    color:#1A0033;
+}
+
+#allcontent
+{
+    margin: 0 auto;   
+}
+
+#main
+{
+    margin: auto;
+    width: 760px;
+
+}
+
+a:hover
+{
+    background: url("../images/divider.gif");
+    font-weight: normal;
+}
+
+a:link
+{
+    color: #6633CC;
+    font-weight: normal;
+}
+
+a:visited
+{
+    color: #6633CC;
+    font-weight: normal;
+}
+
+p.divider
+{
+    background: transparent;
+    text-align: center;
+}
+
+.post
+{
+    background: transparent url(../images/bg.png);  
+    border: ridge 3px;
+    padding: 20px;
+    
+}
+
+.postHeader, .postHeader a
+{
+    text-align: center; 
+    text-shadow: 2px 2px 2px #FFFF66;        
+    color: #1A0033;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.postHeader
+{
+    border-bottom: 2px groove #fff;
+    padding: 0 0 18px;
+    margin: 0 0 20px;
+}
+
+.postHeader a, .postHeader a:visited, .postHeader a:hover
+{
+    color: #1A0033;
+    background: none;
+}
+
+.applet
+{
+    width: 100%;
+    height: 600px;
+}
+
+#footer
+{
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    font-size: 60%;
+    padding: 10px;
+    margin: 50px auto 5px auto;
+    color: white;
+}

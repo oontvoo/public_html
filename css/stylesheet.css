@@ -1,0 +1,167 @@
+/* Special font-face selector */
+@font-face 
+{
+    font-family: "star";
+    src: url("star.ttf") format("truetype");
+}
+body
+{
+    background-color: #000;
+    background-image: url("../images/blue3.jpg");
+    background-position: center;
+    background-position: 50% 15%;
+    background-attachment: fixed;
+    
+    /*background-size: 100% 100%*/
+    
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#001A33;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#allcontent
+{
+    margin: 0 auto;    
+    width: 1024px;
+}
+
+h1
+{
+    font-size: 50px;
+    font-family: star;
+    margin: 50px 0px;
+    text-align: center;
+    text-shadow: 4px 4px 6px yellow;    
+    color: bisque;
+}
+
+#main
+{
+    margin-left: 220px;
+}
+
+#sidebar
+{
+    width: 200px;
+    float: left;
+}
+
+#navigate
+{    
+    text-align: center;
+    padding: 10px;
+    background: url("../images/bg.png");
+    border: ridge 3px;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+#refLink
+{
+    text-align: center;
+    padding: 10px;
+    background: url("../images/bg.png");
+    border: ridge 3px;
+}
+
+p.menu 
+{
+    margin: 0px 0px;
+    background: none;
+    padding: 0px;
+}
+
+a:hover
+{
+    background: url("../images/divider.gif");
+    font-weight: normal;
+}
+
+a:link
+{
+    color: #001A33;
+    text-shadow: 4px 4px 6px yellow;    
+    font-weight: normal;
+}
+
+a:visited
+{
+    color: #001A33;
+    font-weight: normal;
+}
+
+div.divider
+{
+    margin: 15px 0;
+    background: transparent;
+    text-align: center;
+}
+
+.post
+{
+    background: transparent url(../images/bg.png);  
+    border: ridge 3px;
+    padding: 20px;
+    
+}
+
+.postHeader, .postHeader a
+{
+    text-align: center; 
+    text-shadow: 2px 2px 2px #FFFF66;        
+    color: #000033;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.postHeader
+{
+    border-bottom: 2px groove #fff;
+    padding: 0 0 18px;
+    margin: 0 0 20px;
+}
+
+.postHeader a, .postHeader a:visited, .postHeader a:hover
+{
+    color: #000033;
+    background: none;
+}
+
+.applet
+{
+    width: 100%;
+    height: 600px;
+}
+
+#footer
+{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 100%;
+    padding: 10px;
+    margin: 50px auto 5px auto;
+    color: black;
+    text-shadow: 2px 1px 1px  yellow;        
+}
+
+#hideBg
+{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    font-size: 13px;
+    width: 100px;
+    text-align: center;
+    background: url(../images/bg.png);
+    border: ridge 3px;
+}
+
+#hideBg button
+{
+    font-size: 10px;
+    width: 80px;
+    margin: 3px;
+}
