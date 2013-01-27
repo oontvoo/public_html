@@ -4,26 +4,25 @@
     font-family: "star";
     src: url("star.ttf") format("truetype");
 }
+
 body
 {
     background-color: #000;
-    background-image: url("../images/blue3.jpg");
+/*    background-image: url("../images/blue3.jpg");*/ 
+    background-image: url("../images/star_night1a.jpg");
     background-position: center;
-    background-position: 50% 15%;
     background-attachment: fixed;
-    
-    /*background-size: 100% 100%*/
-    
+    background-size: 100%;
     font-family: sans-serif;
     font-size: 18px;
     color:#001A33;
     margin-left: auto;
     margin-right: auto;
-} 
+}
 
 #allcontent
 {
-    margin: 0 auto;    
+    margin: 0 auto;
     width: 1024px;
 }
 
@@ -31,9 +30,18 @@ h1
 {
     font-size: 50px;
     font-family: star;
-    margin: 50px 0px;
+    margin: 30px 0px;
     text-align: center;
     text-shadow: 4px 4px 6px yellow;    
+    color: #001A33;
+}
+h3
+{
+    font-size: 60px;
+    font-family: Courier, "Courier New", monospace 
+    margin: 50px 0 px;
+    text-align: center;
+    text-shadow: 4px 7px 6px yellow;
     color: bisque;
 }
 
@@ -110,7 +118,7 @@ div.divider
 .postHeader, .postHeader a
 {
     text-align: center; 
-    text-shadow: 2px 2px 2px #FFFF66;        
+    text-shadow: 2px 2px 2px #FFFF66;
     color: #000033;
     text-decoration: none;
     font-size: 25px;
@@ -144,7 +152,7 @@ div.divider
     padding: 10px;
     margin: 50px auto 5px auto;
     color: black;
-    text-shadow: 2px 1px 1px  yellow;        
+    text-shadow: 2px 1px 1px  yellow; 
 }
 
 #hideBg

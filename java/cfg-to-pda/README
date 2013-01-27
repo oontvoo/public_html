@@ -1,0 +1,8 @@
+To make life a bit easier in our Theory of Computation class,a friend and I created
+a program that  automatically generates the definition of a Pushdown Automaton to recognise
+any given Context-Free grammar. The program is also capable of converting a set of
+context free grammar rules to Chomsky Normal Form.
+
+The project is hosted on Launcpad at https://launchpad.net/cfg-to-pda
+Any comment and/or contribution is greatly appreciated! :)
+

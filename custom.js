@@ -1,7 +1,10 @@
 /**
- * @author: Vy Thuy Nguyen
+ * Custom functions for
+ *  + hiding/showing background
+ *  + obtaining email address
  * Last Modified: 5/2/2012
  */
+
 $(document).ready(function () {
     $(".postHeader a").bind("click", function (event) {
         event.preventDefault();

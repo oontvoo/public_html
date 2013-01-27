@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset = UTF-8" />
+    <meta name="author" content="Vy Thao Nguyen" />
+    <title>Vy Thao Nguyen</title>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <link rel="SHORTCUT ICON" href="../images/apple.png"/>
+    <script type="text/javascript" src="../jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="../custom.js"></script>
+    
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20308994-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+  $(document).ready(function() {
+  
+  $(".notsup").bind("click", function() {
+  alert("Not Supported Yet! :)");
+  });
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+  
+  $("#home").bind("click", function() {
+  alert("This is home already! :P");
+  });
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+  $("#java-link").bind("click", function(event) {
+  event.preventDefault();
+  alert("These are some of my faves. See my Launchpad page for more! :D");
+  window.location = "http://www.cs.umb.edu/~vngu0510/java";
+  });
+  });
+</script>
+
+
+
+</head>
+<body>
+    <div id="allcontent">
+        <div id="header">
+           <h3>printf ("%s\n", "Hello, World!");</h3>
+        </div>
+        <div id="sidebar">
+            <div id="navigate">
+                <br />
+                <h2>Navigate</h2>
+                <hr />
+                <p class="menu">
+                    <a id="home" class="menu" href="#" title="Home">Home</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="notsup" class="menu" href="#" title="Check out my photos">Album</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="http://www.cs.umb.edu/~vngu0510/docs/VyNguyenResume.pdf" title="My R&eacute;sum&eacute;">R&eacute;sum&eacute;</a></p>
+                <hr />
+                <p class="menu">
+                    <a  class="home menu" id="java-link" href="../java/" title="Some of my Java Projects/Programs">Java</a></p>
+                <hr />
+                <p class="menu">
+                    <a class="menu" href="../c++/" title="My C++ Projects/Programs">C++</a></p>
+                <hr />
+                
+            </div>
+            <!--
+            <div id="refLink">
+                <h2>
+                    Reference</h2>
+                <hr />
+	        <p class = "menu">
+	          <a href="http://www.javaworld.com" title="JavaWorld">Java World</a></p>
+	        <hr/>
+                <p class="menu">
+                  <a href="http://www.colorschemer.com/online.html" title="ColorScheme">Color Scheme</a></p>
+                <hr />
+                <p class="menu">
+                  <a href="http://www.w3schools.com/html" title="W3School">W3School</a></p>
+                <hr />
+                <p class="menu">
+                  <a href="http://www.degraeve.com/reference/specialcharacters.php" title="Special Characters in HTML">
+                    Special Characters</a></p>
+            </div>
+            -->
+        </div>
+        <div id="main">
+            <div class="post">
+              <div class="postHeader">
+                <h1><b>Vy Thao Nguyen</b></h1>
+                <center>Computer Science Department</center>
+                <center><i>University of Massachusetts</i></center>
+                </div>
+                <div class="postMain">                   
+                    <br/>
+                     Welcome to my world! <img src="../images/hug.gif"/>
+                    <br />
+                    ~Cheers~
+                    <br />
+                    <br />
+                    <br />
+                    <font color="#000000"><q><i>The road to success is always under construction.</i></q>
+                        <br />
+                        <br />
+                        <br />
+                        .......oooO...................<br />
+                        .......(....)..__....+........<br />
+                        ........\. (......Oooo........<br />
+                        .........\_).....(.... )......<br />
+                        _...* ............).../.....  <br />
+                        .............*-....(_/........<br />
+                        ......oooO......*---_**.......<br />
+                        ......(....).................<br />
+                        ......\...(.....Oooo....*....<br />
+                        ........\_).....(.. ..).......<br />
+                        .................).../........<br />
+                        .................(_/..........<br />
+                        ......oooO....................<br />
+                        ......(.. )...................<br />
+                        .......\.(.........Oooo.......<br />
+                        ........\_).......( ....).....<br />
+                        ...................).../......<br />
+                        ..................(_/.........<br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        ... ,SO IS THIS PAGE! <img src="../images/bigsmile.gif"/>
+                        <br />
+                        In the mean time, feel free to visit me on <a href="https://launchpad.net/~oontvoo">Launchpad</a> or 
+                        <a href="https://github.com/oontvoo">Github</a>
+                        <br />
+                        You can also catch me hanging out on <a href="irc://irc.freenode.net:6667/akiban?key">akiban</a> or
+                        <a href="irc://irc.freenode.net:6667/unix?key">unix</a> IRCs
+                    </font>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+            <div id="footer">
+                <hr />
+                <q>If you can't find a way, make a way</q> -- Daniella Kessler
+                <p>
+                    &copy; 2011 Vy Nguyen. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="hideBg">
+        <div id="msg">As You Wish! <img alt=":D" src="../images/smug.gif" /></div>
+        <div><button href="#" id="hide">I hate the background! <img alt=":((" src="../images/cant_see.gif" /> Hide it!</button></div>
+        <div><button href="#" id="show">Changed my mind. Bring it back, please!</button></div>
+    </div>
+</body>
+ <div style="position: fixed; bottom: 0; left: 0" id="birdmail">
+   <a href="#" 
+      onclick="alert('oontvoo<AT>(<HOTMAIL> | <GMAIL>)<DOT>com');" 
+      id="bird-link"><img alt="mail" src="../images/birdmail.png"
+                          title="Ready to deliver your mail(s)!">
+   </a>
+ </div>
+
+</html>
