@@ -1,19 +1,75 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
+  <head>
     <meta http-equiv="content-type" content="text/html; charset = UTF-8" />
     <meta name="author" content="Vy Thao Nguyen" />
     <title>Vy Thao Nguyen</title>
-    <link rel="stylesheet" type="text/css" href="cover_stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/cover_stylesheet.css" />
     <link rel="SHORTCUT ICON" href="images/apple.png"/>
-    
-</head>
-<body>
-<div id="content">
+    <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+  </head>
 
-<a href="about/" id="aboutme"><img src="aboutme.png"/></a>
-</div>
+  <script>
+    function showWarning(siteName)
+    {
+        alert("You are leaving this page for " + siteName);
+    }
+
+    $(document).ready(function() {
+    $("#help").bind("click", function(event) {
+    alert("Need help navigating around? \n\nHint #1: Think `Doors And Rooms(TM)`\n(Hint #2: ie., If something looks `clickable`, it probably is.)");
+    });
+
+    //Calc. time
+    var d = new Date();
+    var time = Math.round(49710.2696 - d.getTime() / 86400000);
+    $("#secCount").html(time + " days until Y2K38");
+    });
+
+    function goto(location)
+    {
+        window.location = location;
+    }
+  </script>
+
+
+  <body>
+
+  <div style="float: left; width:720px;">
+    <a id="help" title="Need help navigating around?" href="#">
+      <img src="images/help.png"/>
+    </a>
+  </div>
+
+  <div style="float: left; margin-top:455px;">
+    <a title="My Github" onclick="showWarning('GitHub');" href="http://github.com/oontvoo">
+      <img src="images/git.png"/>
+    </a>
+  </div>
+
+  <div style="float: right">
+    <div>
+      <a title="My Launchpad" href="https://launchpad.net/~oontvoo" onclick="showWarning('Launchpad');">
+        <img src="images/bzr.png"/>
+      </a>
+    </div>
+    <div style="position: absolute;  bottom: 0; right: 0">
+      <button title="The millenium bug" style="width: 50px; padding: 3px" id="secCount" onClick="goto('http://en.wikipedia.org/wiki/Year_2038_problem');">
+      </button>
+    </div>
+  </div>
+
+  <div id="container">
+    <a title="About me!" href="http://www.cs.umb.edu/~vngu0510/about" id="aboutme"></a>
+  </div>
+
+  <div id="footer">
+    <hr />
+    <center><b><q>To iterate is human, to recurse divine</q> -- L.Peter Deutsch</b></center>
+    <center><b><p>&copy; 2011 Vy Nguyen. All rights reserved</p></b></center>
+  </div>
+
 </body>
-
 </html>
+

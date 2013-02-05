@@ -3,6 +3,6 @@ a program that  automatically generates the definition of a Pushdown Automaton t
 any given Context-Free grammar. The program is also capable of converting a set of
 context free grammar rules to Chomsky Normal Form.
 
-The project is hosted on Launcpad at https://launchpad.net/cfg-to-pda
+The project is hosted on Launchpad at https://launchpad.net/cfg-to-pda
 Any comment and/or contribution is greatly appreciated! :)
 

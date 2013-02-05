@@ -6,10 +6,7 @@
  */
 
 $(document).ready(function () {
-    $(".postHeader a").bind("click", function (event) {
-        event.preventDefault();
-    });
-
+  
     $("#hideBg #show").hide(0);
     $("#hideBg #msg").hide(0);
     
@@ -19,7 +16,7 @@ $(document).ready(function () {
         $(this).hide(0);
         $("#hideBg #show").show(0);
         $("#hideBg #msg").show(0);
-        $("body").css("background-image", "url('images/bg')");
+        $("body").css("background-image", "url('http://www.cs.umb.edu/~vngu0510/images/bg.png')");
     });
    
     $("#hideBg #show").bind("click", function (event) {
@@ -27,10 +24,10 @@ $(document).ready(function () {
         $(this).hide(0);
         $("#hideBg #hide").show(0);
         $("#hideBg #msg").hide(0);
-        $("body").css("background-image", "url('images/blue3.jpg')");
+        $("body").css("background-image", "url('http://www.cs.umb.edu/~vngu0510/images/star_night1a.jpg')");
     });
 });
-
+/*
 function showPost(post) {
     if ($("div#post" + post).is(":visible"))
         $("div#post" + post).hide("fast");
@@ -38,7 +35,7 @@ function showPost(post) {
         $("div#post" + post).show("fast");
 }
 
-
+*/
 $(function () {
     var $sidebar = $("#sidebar"),
                 $window = $(window),

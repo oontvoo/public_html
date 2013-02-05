@@ -1,0 +1,44 @@
+
+body
+{
+    background-color: #000;
+    background-image: url("../images/wall.jpg");
+    background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+#container
+{
+	background-attachent: scroll;
+	background-clip: border-box;
+	backgorund-color: transparent;
+	background-image: url("../images/shelf1.jpg");
+	background-origin: padding-box;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 961px 585px;
+	width: 271px;
+	height: 275px;
+	margin: 0 auto;
+	padding: 45px 370px 265px 320px
+}
+
+#aboutme
+{
+	display: block;
+	width: 272px;
+	height: 258px;
+}
+
+#footer
+{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 125%;
+    padding: 0px;
+    margin: 0px auto 5px auto;
+    color: black;
+    text-shadow: 2px 1px 1px #FFF273;
+}
