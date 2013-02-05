@@ -35,41 +35,41 @@
 
 
   <body>
+  <div id="container">
+  	<div id="help">
+ 	   <a title="Need help navigating around?" href="#">
+ 	     <img src="images/help.png"/>
+ 	   </a>
+ 	 </div>
 
-  <div style="float: left; width:720px;">
-    <a id="help" title="Need help navigating around?" href="#">
-      <img src="images/help.png"/>
-    </a>
-  </div>
-
-  <div style="float: left; margin-top:455px;">
+  <div style="position: absolute; left: 550px; top:455px;">
     <a title="My Github" onclick="showWarning('GitHub');" href="http://github.com/oontvoo">
       <img src="images/git.png"/>
     </a>
   </div>
 
   <div style="float: right">
-    <div>
+    <div style="position: absolute; right: -100px; top: 0px;">
       <a title="My Launchpad" href="https://launchpad.net/~oontvoo" onclick="showWarning('Launchpad');">
         <img src="images/bzr.png"/>
       </a>
     </div>
-    <div style="position: absolute;  bottom: 0; right: 0">
+    <div style="position: absolute;  bottom: 0; right: -70px;">
       <button title="The millenium bug" style="width: 50px; padding: 3px" id="secCount" onClick="goto('http://en.wikipedia.org/wiki/Year_2038_problem');">
       </button>
     </div>
   </div>
 
-  <div id="container">
+
     <a title="About me!" href="http://www.cs.umb.edu/~vngu0510/about" id="aboutme"></a>
-  </div>
+  
 
   <div id="footer">
     <hr />
     <center><b><q>To iterate is human, to recurse divine</q> -- L.Peter Deutsch</b></center>
     <center><b><p>&copy; 2011 Vy Nguyen. All rights reserved</p></b></center>
   </div>
-
+</div>
 </body>
 </html>
 

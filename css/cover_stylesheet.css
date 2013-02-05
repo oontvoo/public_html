@@ -1,6 +1,6 @@
-
 body
 {
+	position:relative;
     background-color: #000;
     background-image: url("../images/wall.jpg");
     background-position: center;
@@ -10,6 +10,7 @@ body
 
 #container
 {
+	position:relative;
 	background-attachent: scroll;
 	background-clip: border-box;
 	backgorund-color: transparent;
@@ -24,6 +25,13 @@ body
 	padding: 45px 370px 265px 320px
 }
 
+#help{
+	position: absolute;
+	top: -5px;
+	z-index: 100;
+	left: -140px;
+}
+
 #aboutme
 {
 	display: block;
@@ -33,12 +41,15 @@ body
 
 #footer
 {
+	position: absolute;
+	bottom: -130px;
+	left: 50px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
     font-size: 125%;
-    padding: 0px;
-    margin: 0px auto 5px auto;
+	width: 800px;
+	height: 100px;
     color: black;
     text-shadow: 2px 1px 1px #FFF273;
 }
